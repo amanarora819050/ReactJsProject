@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {Component} from 'react';
 import './Home.css';
 import Header from '../../common/header/Header';
@@ -340,3 +341,13 @@ class HomeItem extends Component{
 }
 
 export default withStyles(styles)(Home);
+=======
+import React , {Component} from 'react';
+
+class Home extends Component {
+    render() {
+        return(<div>Home Page</div>)
+    }
+}
+export default Home;
+>>>>>>> 47e8896ea2b7fd7438f5bc370296e4b3cac9cd75
