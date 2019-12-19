@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './Header.css';
-<<<<<<< HEAD
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import InputBase from '@material-ui/core/InputBase';
@@ -146,21 +145,3 @@ class Header extends Component{
 }
 
 export default withStyles(styles)(Header)
-=======
-
-class Header extends Component {
-
-    render(){
-        return(
-            <div>
-            <header className="app-header">
-                <div className="app-logo">
-                    <span>Image Viewer</span>
-                </div>
-            </header>
-            </div>
-        )
-    }
-}
-export default Header;
->>>>>>> 47e8896ea2b7fd7438f5bc370296e4b3cac9cd75
